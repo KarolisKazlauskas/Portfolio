@@ -23,13 +23,13 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>Completing the course</small>
+              <small>Frontend (JavaScript) </small>
             </article>
 
             <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
-              <small>You can be first</small>
+              <small>You can be my first client</small>
             </article>
 
             <article className="about__card">
@@ -40,9 +40,8 @@ const About = () => {
           </div>
 
           <p>
-            Im new Java Script development searhing for job, or practice.
-              Also im like sport activities like basketball, padel, snowbording and wake-bording.
-          
+          I have gained experience working in various companies through the years and half a year ago I decided to change my career path and started taking programming courses. After successfully completing the Vilnius Coding School programming basics, I understood that I want to grow my career in this field so
+I continued trainings in JavaScript (Front-End) and now I am open to new career opportunities as a junior developer.
           </p>
 
           <a href="#contact" className="btn btn-primary">

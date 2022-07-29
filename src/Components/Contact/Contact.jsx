@@ -29,19 +29,19 @@ const Contact = () => {
     <HiOutlineMail className='contact__option-icon'/>
     <h4>Email</h4>
     <h5>karoliui@kazlauskui.lt</h5>
-    <a href="mailto:karoliui@kazlauskui.lt" target='_blank'>Send a message</a>
+    <a href="mailto:karoliui@kazlauskui.lt" target='_blank'rel="noopener noreferrer">Send a message</a>
   </article>
   <article className="contact__option">
     <RiMessengerLine className='contact__option-icon'/>
     <h4>Messenger</h4>
-    <h5></h5>
-    <a href="https://m.me/KarolisSamurajus" target='_blank'>Send a message</a>
+    <h5>let's communicate</h5>
+    <a href="https://m.me/KarolisSamurajus" target='_blank'rel="noopener noreferrer">Send a message</a>
   </article>
   <article className="contact__option">
     <ImWhatsapp className='contact__option-icon'/>
     <h4>WhatsApp</h4>
     <h5>call me</h5>
-    <a href="https:/api.whatsapp.com/send?phone=37062433367" target='_blank'>Send a message</a>
+    <a href="https:/api.whatsapp.com/send?phone=37062433367" target='_blank'rel="noopener noreferrer">Send a message</a>
   </article>
 </div>
 {/* PABAIGA CONTACT OPTIONS */}

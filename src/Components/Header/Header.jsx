@@ -3,10 +3,13 @@ import './Header.css'
 import CTA from './CTA'
 import Me from '../../assets/nida.jpeg'
 import HeaderSocial from './HeaderSocial'
+// import LanguageSwitch from './LanguageSwitch'
+
 
 const Header = () => {
   return (
     <header>
+      {/* <LanguageSwitch /> */}
       <div className="container header_container">
         <h5>Hello I'm</h5>
         <h1>Karolis Kazlauskas</h1>

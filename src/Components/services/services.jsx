@@ -34,7 +34,7 @@ const services = () => {
             </li>
           </ul>
         </article>
-        {/* End of UI/UX disign */}
+{/* End of UI/UX disign */}
 
         <article className="service">
           <div className="service__head">
@@ -67,7 +67,7 @@ const services = () => {
 {/* End of another section */}
         <article className="service">
           <div className="service__head">
-            <h3>Frontend Development</h3>
+            <h3>Content Creation</h3>
           </div>
 
           <ul className="service__list">

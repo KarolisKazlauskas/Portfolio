@@ -57,7 +57,7 @@ h1 {
 }
 section {
     margin-top: 8rem;
-    /* height: 100vh;    (Priskyrus šį aukštį pradeda lipti sumažinus ant kitų komponentu) */ 
+    /* height: 100vh;    (Priskyrus šį aukštį pradeda lipti  ant kitų komponentu sumazinus) */ 
 }
 
 section > h2, section > h5 {

@@ -37,6 +37,76 @@ position: relative;
     height: 2rem;
     background: var(--color-primary);
 }
+/* ============== Language Switch ================ */
+.switch {
+    position: absolute;
+    right: 1.5cm;
+    top: 1cm;
+    width: 60px;
+    height: 35px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+.slider {
+
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.slider:before {
+
+    content: "EN";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    height: 26px;
+    width: 26px;
+    font-size: 10px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 2.5;
+    background: var(--color-primary-variant);
+    transition: var(--transition);
+}
+
+.slider:hover {
+
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+input:checked + .slider:before {
+    content: "LT";
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.round {
+
+    border-radius: 34px;
+}
+  
+.slider.round:before {
+
+    border-radius: 50%;
+}
+
+
 
 /* ==============  ME  ============= */
 .me {
@@ -78,7 +148,7 @@ position: relative;
     header {
         height: 100vh;
     }
-    .header__socials, .scroll_down {
+    .header__socials, .scroll_down, .language__container {
         display: none;
     }
 }
